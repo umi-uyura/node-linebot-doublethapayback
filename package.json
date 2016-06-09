@@ -1,0 +1,24 @@
+{
+  "name": "node-linebot-doublethapayback",
+  "version": "1.0.0",
+  "description": "Take double the payback LINE BOT using Node.js and Heroku",
+  "keywords": "linebot,line,node,bot,heroku",
+  "main": "index.js",
+  "scripts": {
+    "start": "nf start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "foreman": "^1.4.1"
+  },
+  "engines": {
+    "node": "^4.4.x"
+  },
+  "author": "Umi Uyura",
+  "license": "MIT"
+}
